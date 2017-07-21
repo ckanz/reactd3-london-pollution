@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Legend from './components/Legend.js';
 import LineChart from './components/LineChart.js';
+import Headline from './components/Headline.js';
+import Footer from './components/Footer.js';
 
 const chartData = require('dsv-loader?delimiter=,!./data/london_pollution.csv');
 
@@ -41,8 +43,10 @@ const mainStyle = {
 
 const App = () => (
   <div style={mainStyle}>
+    <Headline />
     <LineChart data={chartData} schema={schema} />
     <Legend schema={schema} />
+    <Footer />
   </div>
 );
 
