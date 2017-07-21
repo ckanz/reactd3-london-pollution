@@ -33,8 +33,14 @@ const schema = [
   }
 ];
 
+const mainStyle = {
+  margin: 'auto',
+  textAlign: 'center',
+  width: '100%'
+};
+
 const App = () => (
-  <div>
+  <div style={mainStyle}>
     <LineChart data={chartData} schema={schema} />
     <Legend schema={schema} />
   </div>

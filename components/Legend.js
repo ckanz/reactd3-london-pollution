@@ -12,7 +12,7 @@ class myLegned extends React.Component {
       let myStyle = {
         color: item.color
       };
-      let el = <span style={myStyle}>{item.name+' '}</span>;
+      let el = <span style={myStyle}>{'█ '+item.name+' '}</span>;
       schema.push(el);
     });
   }
