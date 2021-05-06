@@ -3,7 +3,7 @@
 ### Description
 
 This project creates a simple line chart showing the monthly average roadside air quality levels in London.
-This chart has been created using the [react-d3 framework](https://github.com/react-d3). The source of the data is the [London Datastore](https://data.london.gov.uk/dataset/london-average-air-quality-levels). The app is hosted online [here](http://london-pollution.clemens-anzmann.com/).
+This chart has been created in 2017 using the [react-d3 framework](https://github.com/react-d3). The source of the data is the [London Datastore](https://data.london.gov.uk/dataset/london-average-air-quality-levels).
 
 ![screenshot](https://github.com/ckanz/reactd3-london-pollution/blob/master/screenshot.png?raw=true)
 
